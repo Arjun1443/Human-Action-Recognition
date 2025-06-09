@@ -154,14 +154,13 @@ Total params: 14,985,039
 Trainable params: 270,351
 Non-trainable params: 14,714,688
 _________________________________________________________________
-
+# Accuracy
 from sklearn.metrics import accuracy_score, log_loss
-
 print('Log Loss:',log_loss(np.round(y_preds),y_test))
 print('Accuracy:',accuracy_score(np.round(y_preds),y_test))
 
-Log Loss: 12.417512465789333
-Accuracy: 0.6317460317460317
+* Log Loss: 12.417512465789333
+* Accuracy: 0.6317460317460317
 # Next Steps and Recommendations
 
 * In order to improve the accuracy, we can unfreeze few more layers and retrain the model. This will help us further improve the model.
