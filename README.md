@@ -95,8 +95,11 @@ Movements are often typical activities performed indoors, such as walking, talki
 *Because it provides information about the identity of a person, their personality, and psychological state, it is difficult to extract.
 *The human ability to recognize another person’s activities is one of the main subjects of study of the scientific areas of computer vision and machine learning. As a result of this research, many applications, including video surveillance systems, human-computer interaction, and robotics for human behavior characterization, require a multiple activity recognition system.
 # Below are some practical applications of HAR:
+![punching](https://github.com/user-attachments/assets/fbea80d3-45c4-4292-9f48-41186e334e49)
+
 * Here we can see that the AI is able to identify what the man in the video is doing. This might raise the question of importance of identification of the action. Let's look at another example below:
   Here we can see that the model is able to identify the troublesome student who is running in the classroom highlighted in red. Whereas the other kids who are walking normally are colored in green.
+![har_run](https://github.com/user-attachments/assets/c14092b8-8567-4faf-ab68-dd19b211ce9b)
 
 This is a just small example of the endless applications that can help us automate monotonous and dangerous jobs.
 # What is a CNN?
