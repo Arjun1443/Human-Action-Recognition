@@ -127,6 +127,8 @@ def show_img_train():
  show_img_train()
 
 # Action Distribution
+![image](https://github.com/user-attachments/assets/641ec10d-9c22-45aa-902c-d80089ef3478)
+
 # Model Summary
 * The loss function that we are trying to minimize is Categorical Cross Entropy. This metric is used in multiclass classification. This is used alongside softmax activation function.
 
@@ -157,6 +159,9 @@ from sklearn.metrics import accuracy_score, log_loss
 
 print('Log Loss:',log_loss(np.round(y_preds),y_test))
 print('Accuracy:',accuracy_score(np.round(y_preds),y_test))
+
+Log Loss: 12.417512465789333
+Accuracy: 0.6317460317460317
 # Next Steps and Recommendations
 
 * In order to improve the accuracy, we can unfreeze few more layers and retrain the model. This will help us further improve the model.
