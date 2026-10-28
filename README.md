@@ -1,5 +1,19 @@
 # Human Action Recognition with Transfer Learning
 
+## Interactive Streamlit app
+
+A companion application is available in [streamlit_app/app.py](streamlit_app/app.py).
+
+```bash
+python -m pip install -r streamlit_app/requirements.txt
+python -m streamlit run streamlit_app/app.py
+```
+
+Image inference requires a compatible trained .keras checkpoint and a JSON list of class labels in output order. The original dataset/checkpoint is absent.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. A live deployment is not yet confirmed.
+
+
 An image-classification learning project exploring human-action categories with a VGG16-based model.
 
 ## Why this project matters
